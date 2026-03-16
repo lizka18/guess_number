@@ -4,7 +4,7 @@ number = randint(1, 100)
 
 print('Угадай число')
 
-user_number = int(input())
+user_number = int(input('Введите число'))
 
 while number != user_number:
     if user_number > number:
@@ -13,3 +13,4 @@ while number != user_number:
         print('Ваше число меньше, чем загаданное')
     user_number = int(input())
 print('Отличная интуиция! Вы угадали')
+print('Новое изменение')
